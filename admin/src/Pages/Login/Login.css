@@ -1,0 +1,68 @@
+.pack {
+    
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+} 
+.container {
+    
+    width: 350px;
+    background: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.form-container {
+    text-align: left;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-container input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black; /* Set input text color to black */
+}
+.form-container input[type="file"] {
+    padding: 0;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #ff9900;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Container styling */
+div.login-link-container {
+    text-align: center; /* Center the link */
+    margin-top: 20px; /* Space above the link */
+}
+
+/* Link styling */
+div.login-link-container a {
+    color: #007BFF; /* Link color (Bootstrap primary color) */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+    font-size: 14px; /* Font size */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+div.login-link-container a:hover {
+    color: #0056b3; /* Darker shade of the link color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
